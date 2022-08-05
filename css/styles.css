@@ -1,0 +1,30 @@
+:root{
+    --netflixBg: #141414;
+    --netflixFont: #808080;
+    --sectionFont: #eaeaea;
+}
+
+.netflixBg{
+    background-color: var(--netflixBg);
+}
+.netflixFont{
+    color: var(--netflixFont);
+}
+.sectionColor{
+    color: var(--sectionFont);
+}
+.movieCard{
+    /* background-color: white; */
+    overflow: hidden;
+    height: 150px;
+}
+.avatar{
+    width: 30px;
+}
+.nowrap{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.movieCard img{
+    max-width: fit-content;
+}
