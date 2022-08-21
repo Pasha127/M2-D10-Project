@@ -121,3 +121,19 @@ $('#myCarousels').carousel({
       setTimeout(timeoutFunc, delay)
     }
   }
+  /* const thumbnails = document.querySelectorAll(".movieSelection");
+  const generateDescription = function(e){
+    const description = document.createElement("div");
+    description.classList.add("description");
+    e.target.prepend(description);
+
+  }
+  const removeDescription = function(e){
+    e.target.querySelector(".description").remove();
+
+  }
+  for(thumbnail of thumbnails){
+    thumbnail.addEventListener("mouseover", generateDescription);
+    //thumbnail.addEventListener("mouseout", removeDescription);
+
+  } */
