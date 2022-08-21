@@ -181,3 +181,10 @@
       --items-per-screen: 2;
     }
   }
+  .userButton{
+    background-color: #141414;
+    color: #eaeaea;
+    border: none;
+    position: relative;
+    transform: translateY(-10px);
+  }
